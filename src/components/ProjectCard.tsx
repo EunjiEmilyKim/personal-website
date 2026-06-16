@@ -13,7 +13,6 @@ type ResearchItem = {
 type Project = {
   title: string;
   description: string;
-  type: string;
   collaborators?: string;
   items: ResearchItem[];
 };
@@ -48,7 +47,7 @@ export default function ProjectCard({ project }: { project: Project }) {
       {open && (
         <div className="mt-7">
           <p className="mb-4 text-sm font-medium uppercase tracking-[0.18em] text-neutral-500">
-            {project.type} ({project.items.length})
+            {project.items.length} works
           </p>
 
           <div className="space-y-4">
