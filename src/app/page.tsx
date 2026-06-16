@@ -19,12 +19,11 @@ export default function Home() {
 
           <div className="mt-9 space-y-5 text-[18px] leading-8 text-neutral-700">
             <p>
-              I am a Postdoctoral Scholar at the University of California Institute on Global Conflict and Cooperation (IGCC), where I study how public institutions govern emerging technologies. My research integrates computational social science, public policy, and science and technology studies to examine the development, diffusion, and implementation of artificial intelligence policy.
+             I am a Postdoctoral Scholar at the University of California Institute on Global Conflict and Cooperation (IGCC). My research examines how emerging technologies interact with institutions, governance, and society, with particular interests in artificial intelligence, technology governance, and computational policy analysis.
             </p>
 
             <p>
-              My work combines large-scale legislative text analysis, machine learning, and mixed methods to understand how governments respond to technological uncertainty. More broadly, I am interested in technology governance, public institutions, and evidence-informed policymaking.
-            </p>
+              I study how technological change shapes policy processes and organizational behavior, and how public and private actors respond to emerging technologies across diverse institutional settings. My work integrates computational text analysis, machine learning, and qualitative inquiry to generate scalable yet interpretable evidence for technology governance.
           </div>
 
           <div className="mt-8 text-[15px] text-neutral-700">
