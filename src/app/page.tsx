@@ -24,6 +24,7 @@ export default function Home() {
 
             <p>
               I study how technological change shapes policy processes and organizational behavior, and how public and private actors respond to emerging technologies across diverse institutional settings. My work integrates computational text analysis, machine learning, and qualitative inquiry to generate scalable yet interpretable evidence for technology governance.
+            </p>
           </div>
 
           <div className="mt-8 text-[15px] text-neutral-700">
