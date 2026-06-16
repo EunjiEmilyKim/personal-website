@@ -1,25 +1,36 @@
 
+import Image from "next/image";
 import Navbar from "@/components/Navbar";
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#fafafa] text-neutral-900">
       <Navbar />
 
-      <section className="mx-auto grid max-w-5xl grid-cols-1 gap-14 px-6 pt-24 md:grid-cols-[220px_1fr] md:pt-32">
-        <div className="h-52 w-52 rounded-2xl bg-neutral-200" />
+      <section className="mx-auto grid max-w-6xl grid-cols-1 gap-14 px-6 pt-24 md:grid-cols-[220px_1fr] md:pt-32">
+        <div className="flex justify-center md:justify-start">
+  <Image
+    src="/profile.jpg"
+    alt="Eunji Emily Kim"
+    width={210}
+    height={210}
+    priority
+    className="h-52 w-52 rounded-2xl object-cover border border-neutral-200"
+  />
+</div>
 
         <div className="max-w-3xl">
-          <h1 className="text-[42px] font-semibold tracking-[-0.03em] md:text-[46px]">
+          <h1 className="text-[30px] font-semibold tracking-[-0.03em] md:text-[30px]">
             Eunji Emily Kim
           </h1>
 
-          <p className="mt-4 text-[18px] text-neutral-700">
-            Postdoctoral Scholar, University of California San Diego
+          <p className="mt-4 text-[16px] text-neutral-700">
+            Postdoctoral Fellow, 
+            University of California Institute on Global Conflict and Cooperation (IGCC)
           </p>
 
-          <div className="mt-9 space-y-5 text-[18px] leading-8 text-neutral-700">
+          <div className="mt-9 space-y-5 text-[16px] leading-8 text-neutral-700">
             <p>
-             I am a Postdoctoral Scholar at the University of California Institute on Global Conflict and Cooperation (IGCC). My research examines how emerging technologies interact with institutions, governance, and society, with particular interests in artificial intelligence, technology governance, and computational policy analysis.
+             I am a Postdoctoral Scholar at UC IGCC. My research examines how emerging technologies interact with institutions, governance, and society, with particular interests in artificial intelligence, technology governance, and computational policy analysis.
             </p>
 
             <p>

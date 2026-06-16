@@ -31,7 +31,7 @@ export default function ProjectCard({ project }: { project: Project }) {
           <h3 className="text-2xl font-medium tracking-tight">
             {project.title}
           </h3>
-          <p className="mt-3 max-w-3xl leading-7 text-neutral-700">
+          <p className="mt-3 max-w-6xl leading-7 text-neutral-700">
             {project.description}
           </p>
           {project.collaborators && (
