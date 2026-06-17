@@ -24,21 +24,32 @@ export default function Home() {
           </h1>
 
           <p className="mt-4 text-[16px] text-neutral-700">
-            Postdoctoral Fellow, 
+            <span className="block">Postdoctoral Fellow</span>
+            <span className="block">
             University of California Institute on Global Conflict and Cooperation (IGCC)
+  </span>
           </p>
 
           <div className="mt-9 space-y-5 text-[16px] leading-8 text-neutral-700">
-            <p>
-             I am a Postdoctoral Scholar at UC IGCC. My research examines how emerging technologies interact with institutions, governance, and society, with particular interests in artificial intelligence, technology governance, and computational policy analysis.
+            <p className="leading-8">
+              I am a Postdoctoral Scholar at the{" "}
+              <a
+              href="https://ucigcc.org/people/eunji-emily-kim/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-900 hover:text-blue-800 transition-colors"
+              >
+              IGCC
+            </a> 
+             . My research explores how technological change transforms governance and public institutions. I also study how governments and organizations make policy under uncertainty and how institutions adapt to emerging technologies.
             </p>
 
             <p>
-              I study how technological change shapes policy processes and organizational behavior, and how public and private actors respond to emerging technologies across diverse institutional settings. My work integrates computational text analysis, machine learning, and qualitative inquiry to generate scalable yet interpretable evidence for technology governance.
+              My current work focuses on artificial intelligence governance, technology policy, and computational social science. Using computational text analysis, machine learning, and mixed methods, I examine legislative behavior, policy diffusion, organizational decision-making, and institutional responses to technological change.
             </p>
           </div>
 
-          <div className="mt-8 text-[15px] text-neutral-700">
+          <div className="mt-8 text-[16px] text-neutral-700">
             <a
               href="mailto:emilykim721@gmail.com"
               className="border-b border-neutral-400 hover:border-neutral-900 hover:text-neutral-950"

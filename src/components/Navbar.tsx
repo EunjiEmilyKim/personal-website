@@ -1,4 +1,3 @@
-
 import Link from "next/link";
 
 export default function Navbar() {
@@ -17,10 +16,15 @@ export default function Navbar() {
         <Link href="/teaching" className="hover:text-neutral-950">
           Teaching
         </Link>
-        <Link href="#" className="hover:text-neutral-950">
+        <Link
+          href="https://scholar.google.com/citations?user=qEht2YwAAAAJ"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-neutral-950"
+        >
           Google Scholar
         </Link>
-        <Link href="mailto:emilykim721@gmail.com" className="hover:text-neutral-950">
+        <Link href="/contact" className="hover:text-neutral-950">
           Contact
         </Link>
       </div>

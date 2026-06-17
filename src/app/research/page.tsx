@@ -27,10 +27,10 @@ export default function Research() {
 
           <div className="mt-8 overflow-hidden rounded-2xl border border-neutral-200 bg-white">
             <Image
-              src="/research-pipeline.png"
+              src="/research-pipeline_v2.png"
               alt="Research pipeline diagram showing the relationship between emerging technologies, technology governance, societal responses, and research methods"
-              width={1600}
-              height={900}
+              width={1200}
+              height={700}
               className="h-auto w-full"
               priority
             />
@@ -80,7 +80,7 @@ export default function Research() {
         authors: ["Eunji Emily Kim"],
         venue: "Handbook of Human-Centered Artificial Intelligence",
         details: "Edited by Wei Xu. Springer Nature.",
-        readArticle: "https://doi.org/10.1007/978-981-97-8440-0",
+        readArticle: "https://link.springer.com/rwe/10.1007/978-981-97-8440-0_61-2",
       },
       {
         year: "2021",
