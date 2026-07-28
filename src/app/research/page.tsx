@@ -14,21 +14,18 @@ export default function Research() {
         <h1 className="text-4xl font-semibold tracking-tight">Research</h1>
 
         <p className="mt-6 max-w-6xl text-md leading-8 text-neutral-700">
-          My research examines how technological change reshapes governance,
-          institutions, and society. I study the development, implementation,
-          and consequences of technology policy using computational social
-          science, text analysis, and mixed-methods research designs.
+          My research examines how emerging technologies are incorporated into existing institutions and decision-making processes. 
+          I study how technological change becomes a public and organizational problem, how institutions develop new rules and arrangements in response, 
+          and how these choices reshape authority, expertise, and human judgment. 
+          Across my work on artificial intelligence and digital infrastructure, 
+          I analyze this process in legislative institutions, high-risk organizations, scientific research, and infrastructure planning.
         </p>
 
         <section className="mt-16">
-          <h2 className="text-sm font-medium uppercase tracking-[0.22em] text-neutral-500">
-            Research Pipeline
-          </h2>
-
-          <div className="mt-8 overflow-hidden rounded-2xl border border-neutral-200 bg-white">
+           <div className="mt-8 overflow-hidden rounded-2xl border border-neutral-200 bg-white">
             <Image
-              src="/research-pipeline_v2.png"
-              alt="Research pipeline diagram showing the relationship between emerging technologies, technology governance, societal responses, and research methods"
+              src="/research_agenda.png"
+              alt="Research agenda illustrating the relationship among my research projects"
               width={1200}
               height={700}
               className="h-auto w-full"

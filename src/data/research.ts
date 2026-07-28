@@ -1,18 +1,11 @@
 
 export const researchProjects = [
   {
-    title: "U.S. AI Legislation",
+    title: "Defining Technological Problems",
     description:
-      "A research stream examining how U.S. state and federal institutions define, frame, and govern artificial intelligence through legislation.",
+      "A research stream examining how emerging technologies are translated into public problems through legislative framing, agenda formation, and scientific knowledge production",
     
     items: [
-      {
-        title:
-          "Patterns of Textual Similarity in U.S. State AI Legislation: Diffusion, Convergence, and Symbolic Action",
-        status: "STATUS: Working Paper",
-        abstract:
-          "This paper analyzes how U.S. state legislatures construct and reuse language in artificial intelligence (AI) policymaking between 2017 and 2025. Instead of treating similarity across bills as straightforward evidence of diffusion, the study interprets textual resemblance as an outcome of meaning-making, symbolic expression, and institutional routines. The analysis draws on the full text of more than 600 AI-related bills, comparing legislative language across states and sessions. A combination of surface-level and semantic comparisons is used to identify both verbatim overlap and shared ideas expressed through different wording. These patterns are situated within state legislative practice to distinguish between reintroduced bills across sessions, companion bills within the same session, and shared definitions across states. Three key findings emerge. First, cross-state borrowing is relatively rare, but when it occurs it often centers on definitional clauses, pointing to selective adoption of common standards. Second, reintroduced bills within the same state show strong continuity, suggesting that repetition functions as a persistence strategy to maintain issue visibility. Third, same-session comparisons reveal divergence across states but frequent near-duplicates within states, reflecting bicameral duplication and symbolic signaling. Overall, the results show that textual similarity in AI legislation reflects persistence, framing, and institutional signaling as much as intergovernmental learning. This perspective contributes to policy research by clarifying how state legislatures use language to sustain attention, construct meaning, and position themselves in governing emerging technologies under uncertainty.",
-      },
       {
         title:
           "Framing Artificial Intelligence in Law: State-Level Agenda Formation and Institutional Pathways in U.S. AI Legislation",
@@ -20,12 +13,56 @@ export const researchProjects = [
         abstract:
           "Artificial intelligence (AI) is entering U.S. law not through a single, unified statute but via sectoral venues including education, health, fiscal administration, public safety where preexisting institutional logics filter how the technology is defined and governed. This paper examines these U.S. state legislatures as early sites of agenda formation for AI by analyzing the full text of AI-related bills across all states introduced from 2017 to early 2025. Using Structural Topic Modeling (STM) with covariates for primary sponsor party, bipartisan sponsorship, and passage status, this study recovers the thematic structure of the corpus and links framing differences to observable political attributes. Results show that apparent dispersion in AI policy reflects systematic venue filtering rather than conceptual incoherence. Bills graft AI provisions onto existing legal architectures, producing non-uniform but patterned topical emphases. Partisan dynamics condition these pathways. Democratic sponsors emphasize system governance and administrative oversight, while Republican sponsors place greater weight on education curriculum/funding, content regulation, and school safety. Bipartisan collaboration clusters in administratively legible domains especially data privacy, whereas single-party sponsorship concentrates on culturally contested areas. Topic–outcome contrasts indicate that frames centering privacy, procurement, and oversight are more likely to be enacted than those foregrounding school safety, healthcare workforce regulation, or broad education funding. These findings reveal that the governance of artificial intelligence in the United States is taking shape through dispersed yet patterned state initiatives, where partisan incentives, venue selection, and pragmatic framing choices jointly shape how emerging technologies become subjects of law.",
       },
+     {
+        title:
+          "Fragmented Knowledge, Interconnected Systems: A Bibliometric Analysis of Data Center Research through a SETS Framework",
+        status: "STATUS: Data Cleaning",
+        collaborators: "Kyungmin Lee, Joohyun Ryu",
+        abstract:
+          "Approximately 4,000 data centers are located in the United States, and global data center capacity demand is projected to grow at an average annual rate of 19–22% through 2030. However, the trajectory of data center expansion remains highly uncertain, as it is shaped by a complex interplay of technological, social, and environmental factors, including chip types, resource consumption, and grid connectivity. While data centers advance regional and national economic growth in an era of intensifying global competition in artificial intelligence, they also require significant amounts of water and energy, and the impacts of hosting such information technology infrastructure remain contentious. Due to concerns about ecological stress from water depletion and rising energy costs, local opposition has intensified, prompting governments to consider new regulatory measures. Several states in the United States are enacting data center moratoria, temporarily suspending construction in order to assess impacts on utilities, the environment, and local communities, and to facilitate broader social consensus. These developments have begun to attract scholarly attention across disciplines, yet the body of research addressing data centers as a sociotechnical phenomenon remains fragmented and unevenly distributed across fields. Despite growing attention, there remains a limited systematic understanding of how the data center research has been developed in  socioeconomic, environmental, and technological dimensions.This study addresses three key questions within the frameworks of social-ecological-technological systems (SETS): (1) What socioeconomic, environmental, and technological factors we can find in data center research, and how can they be identified through large-scale keyword analysis; (2) How these themes have evolved over time, and what emerging trends characterize global data center research; and (3) How are the research domains interconnected, and which field of work or domains drive cross-domain knowledge diffusion. We employ a mixed-methods approach that integrates computational bibliometric analysis with human coding to map data center articles to SETS frameworks. Using a 55,087 (1970 - 2025) dataset of data center–related publications collected from OpenAlex, we analyze keyword co-occurrence patterns to identify dominant themes related to SETS. Preliminary results show that although data center research is predominantly concentrated in technological systems, select social science works exert disproportionate influence on technology-oriented literature, particularly in areas with ecological relevance. This study analyzes previous data center research using the SETS framework to better understand the core challenges. The framework highlights the importance of coordinating natural, technological, and socio-economic systems when designing, planning, and managing data centers, and suggests implications for innovation in science and technology, considering social and ecological impacts." 
+      },            
+    ],
+  },
+  {
+    title: "Designing Institutional Reponses",
+    description:
+      "This research stream examines how institutions develop governance arrangements, operational safeguards, and organizational practices to manage the opportunities and risks of emerging technologies.",
+    items: [
       {
+        title:
+          "Determinants and Outcomes of State-Level AI Election Legislation: A Mixed-Methods Analysis of Regulatory Responses to AI-Generated Political Content",
+        status: "STATUS: Data Analysis",
+        collaborators: "Sanjay Purushotham, Jeongmin Oh, Chul Hyun Park",
+        abstract:
+          "The rapid diffusion of AI-generated content in electoral contexts has prompted a wave of state-level legislative activity in the United States, yet the determinants and real-world effects of these laws remain poorly understood. This project examines 203 bills addressing AI-generated political content introduced across all 50 states and the District of Columbia between 2019 and 2026, integrating three studies to analyze what these laws contain, what predicts their passage, and what they accomplish once enacted. Study 1 employs a sequential mixed-methods design combining human coding with LLM-assisted classification, fuzzy string matching, and Legal-BERT-based document similarity analysis to characterize regulatory design patterns and detect cross-state legislative language borrowing. Study 2 uses multilevel logistic regression to assess whether bill-level textual and substantive features independently predict legislative outcomes after controlling for state political, economic, and technological conditions, supplemented by a survey of sponsoring organizations to capture coalition dynamics unavailable in secondary data. Study 3 applies a multiple case study design with process tracing across 5 to 7 enacted laws, drawing on political advertising archives, platform governance documents, and semi-structured interviews to assess whether enacted legislation has produced observable changes in AI-generated political advertising and technology company content moderation practices. Together, the three studies produce the first systematic, empirically grounded account of AI election legislation as a regulatory phenomenon, contributing to scholarship on technology governance, policy diffusion, and the political conditions shaping regulatory outcomes for emerging technologies.",
+      },
+      {
+        title:
+          "Before the Crisis: Human Oversight Through Peacetime Firebreaks for AI Integration in Nuclear Operations",
+        status: "STATUS: Working Paper",
+        abstract:
+          "Existing scholarship on artificial intelligence and nuclear command and control has focused primarily on preserving human oversight during crises, emphasizing mechanisms such as human-in-the-loop requirements and restrictions on autonomous launch authority. This paper argues that an equally important governance challenge arises earlier, during the peacetime processes through which AI capabilities are evaluated, adopted, and institutionalized within nuclear organizations. AI is unlikely to enter nuclear operations suddenly during wartime; it is instead absorbed incrementally through procurement decisions and routine organizational practice. By the time a crisis occurs, many of the technological and organizational choices that shape human-machine interaction may already be settled, leaving little room for meaningful intervention. Drawing on research in human factors, cognitive psychology, and organizational theory, this paper identifies three interacting mechanisms through which human oversight erodes over time: automation bias, deskilling, and institutional normalization. These mechanisms reinforce one another, gradually shifting AI from an optional decision-support tool into an embedded feature of organizational routine. To address this overlooked stage of governance, the paper introduces the concept of peacetime firebreaks, institutional safeguards designed to preserve human competence, decision authority, organizational skepticism, transparency, and analytical diversity before AI dependence becomes difficult to reverse. It proposes five corresponding design principles and a framework for evaluating them according to effectiveness, feasibility, organizational burden, and scalability. The paper concludes that because nuclear organizations cannot learn through catastrophic failure, governance must be anticipatory, addressing the conditions under which AI enters nuclear institutions rather than waiting to manage its consequences once a crisis has already begun.",
+      },
+    ],
+  },
+  {
+    title: "Explaining Institutional Variation",
+    description:
+      "Explaining why technological governance evolves differently across jurisdictions by examining legislative institutions, political incentives, and policy diffusion",
+        items: [
+       {
         title:
           "When Do Emerging Technology Bills Become Law? Evidence from U.S. State AI Legislation",
         status: "STATUS: Working Paper",
         abstract:
           "What determines legislative success in emerging policy domains, where partisan lines are unsettled and technical complexity is high? This paper examines the political and institutional determinants of bill passage in emerging technology domain using an original dataset of AI-related state bills introduced across all 50 states and Washington, D.C. between 2017 and 2024. Applying logistic regression to a sample of 560 bills with covariate data, the analysis tests whether sponsorship patterns, partisan alignment, and state-level structural conditions predict enactment. The results show that sponsor party identity alone does not systematically predict passage, while coalition size measured by the number of primary sponsors and co-sponsors is positively associated with legislative success. Among alignment variables, governor--sponsor alignment is the strongest and most robust predictor across model specifications, while sponsor--legislature alignment also shows positive impact. State-level structural factors including tech sector employment, GDP, population, and educational attainment are consistently significant but do not account for variation in predictive performance across states. These findings suggest that the enactment of AI-related legislation reflects actor-level coalition-building and cross-institutional alignment rather than partisan control of legislative institutions alone, contributing to research on legislative politics and the governance of emerging technologies.",
+      },
+      {
+        title:
+          "Patterns of Textual Similarity in U.S. State AI Legislation: Diffusion, Convergence, and Symbolic Action",
+        status: "STATUS: Working Paper",
+        abstract:
+          "This paper analyzes how U.S. state legislatures construct and reuse language in artificial intelligence (AI) policymaking between 2017 and 2025. Instead of treating similarity across bills as straightforward evidence of diffusion, the study interprets textual resemblance as an outcome of meaning-making, symbolic expression, and institutional routines. The analysis draws on the full text of more than 600 AI-related bills, comparing legislative language across states and sessions. A combination of surface-level and semantic comparisons is used to identify both verbatim overlap and shared ideas expressed through different wording. These patterns are situated within state legislative practice to distinguish between reintroduced bills across sessions, companion bills within the same session, and shared definitions across states. Three key findings emerge. First, cross-state borrowing is relatively rare, but when it occurs it often centers on definitional clauses, pointing to selective adoption of common standards. Second, reintroduced bills within the same state show strong continuity, suggesting that repetition functions as a persistence strategy to maintain issue visibility. Third, same-session comparisons reveal divergence across states but frequent near-duplicates within states, reflecting bicameral duplication and symbolic signaling. Overall, the results show that textual similarity in AI legislation reflects persistence, framing, and institutional signaling as much as intergovernmental learning. This perspective contributes to policy research by clarifying how state legislatures use language to sustain attention, construct meaning, and position themselves in governing emerging technologies under uncertainty.",
       },
       {
         title:
@@ -37,10 +74,10 @@ export const researchProjects = [
     ],
   },
   {
-    title: "AI Impact on Research and Productivity",
+    title: "Understanding Institutional Consequences",
     description:
-      "Projects studying how artificial intelligence and information technologies shape scientific work, research productivity, and knowledge production.",
-    items: [
+      "Examining how AI reshapes scientific work by influencing research productivity, collaboration, and patterns of knowledge production",
+        items: [
       {
         title:
           "From Transformers to ChatGPT: Technology/Market Forces and Dissertation Topic Selection in Computer Science",
@@ -49,6 +86,7 @@ export const researchProjects = [
         abstract:
           "Graduate students choose their dissertation topic throughout the complex decision process. Individual, degree and institutional characteristics influence this process. However, we understand little about the effects of external forces on their dissertation topic selection. This study investigates how technology and market forces shape dissertation topic selection among graduate students. We distinguish between a tech-push force, driven by advances in scientific ideas and methods, and a demand-pull force, triggered by market and societal adoption of such technologies. We used a novel dataset of graduate dissertations in computer science in Korean and U.S. universities. The 2017 introduction of Transformer architecture represents a tech-push force that expanded the frontier of artificial intelligence research, while the 2022 launch of ChatGPT exemplifies a demand-pull force that redefined the visibility and usefulness of AI. We examine how these forces interact with students’ personal characteristics (nationality, job market position), disciplinary orientation (pure versus applied computer science), and institutional standing (university rankings) in shaping research directions. We hypothesize that the tech-push force disproportionately encourages students who are global job market candidates and in theory-oriented programs to adopt AI topics, while the demand-pull factor encourages students who are domestic job market candidates and in application-oriented programs. In addition, we show that students in the elite U.S. universities react more to the tech-push force, while students in the elite Korean universities do not. By linking the innovation literature on technology-push and demand-pull dynamics with higher education research on academic career formation, this study provides new insights into how graduate students navigate uncertainty and opportunity in fast-moving scientific fields.",
       },
+
       {
         title:
           "Information Access and Knowledge Convergence: Understanding the Foundations of Scholarly Production in the Age of AI",
@@ -56,21 +94,7 @@ export const researchProjects = [
         abstract:
           "The expansion of digital information technologies—from the emergence of the public internet and search engines to recent advances in large language models—has fundamentally transformed how researchers access, evaluate, and synthesize knowledge. While these technologies are widely expected to improve research productivity, their broader consequences for the diversity of scientific knowledge remain poorly understood. We argue that increasing access to shared information may not simply accelerate scientific discovery but may also promote convergence in scholarly knowledge production by directing researchers toward increasingly overlapping bodies of evidence. To evaluate this hypothesis, we construct a large-scale bibliometric dataset spanning multiple scientific disciplines over the past three decades using publication metadata, abstracts, references, and citation networks. We examine temporal changes in three complementary dimensions of knowledge convergence: reference overlap, semantic similarity, and citation concentration. Exploiting major technological transitions—including the diffusion of internet-based scholarly search and the emergence of AI-assisted information retrieval—we estimate whether improvements in information accessibility systematically altered the diversity of scientific production. Rather than viewing artificial intelligence as an isolated technological shock, this study situates AI within a broader historical trajectory of increasingly efficient information access. By identifying long-run changes in the structure of scientific knowledge production, the study provides one of the first empirical frameworks linking information technologies to the evolution of collective scientific creativity and intellectual diversity.",
       },  
+
     ],
-  },
-  {
-    title: "AI and Democracy",
-    description:
-      "A research agenda on AI-generated political content, election regulation, platform governance, and democratic accountability.",
-        items: [
-      {
-        title:
-          "Determinants and Outcomes of State-Level AI Election Legislation: A Mixed-Methods Analysis of Regulatory Responses to AI-Generated Political Content",
-        status: "STATUS: Data Analysis",
-        collaborators: "Sanjay Purushotham, Jeongmin Oh, Chul Hyun Park",
-        abstract:
-          "The rapid diffusion of AI-generated content in electoral contexts has prompted a wave of state-level legislative activity in the United States, yet the determinants and real-world effects of these laws remain poorly understood. This project examines 203 bills addressing AI-generated political content introduced across all 50 states and the District of Columbia between 2019 and 2026, integrating three studies to analyze what these laws contain, what predicts their passage, and what they accomplish once enacted. Study 1 employs a sequential mixed-methods design combining human coding with LLM-assisted classification, fuzzy string matching, and Legal-BERT-based document similarity analysis to characterize regulatory design patterns and detect cross-state legislative language borrowing. Study 2 uses multilevel logistic regression to assess whether bill-level textual and substantive features independently predict legislative outcomes after controlling for state political, economic, and technological conditions, supplemented by a survey of sponsoring organizations to capture coalition dynamics unavailable in secondary data. Study 3 applies a multiple case study design with process tracing across 5 to 7 enacted laws, drawing on political advertising archives, platform governance documents, and semi-structured interviews to assess whether enacted legislation has produced observable changes in AI-generated political advertising and technology company content moderation practices. Together, the three studies produce the first systematic, empirically grounded account of AI election legislation as a regulatory phenomenon, contributing to scholarship on technology governance, policy diffusion, and the political conditions shaping regulatory outcomes for emerging technologies.",
-      },
-    ],
-  },
+  },  
 ];
