@@ -41,7 +41,7 @@ export default function Home() {
               >
               IGCC
             </a> 
-             I am a Postdoctoral Scholar at the UC Institute on Global Conflict and Cooperation (IGCC). My research examines how governments and organizations respond to emerging technologies and the institutional changes that accompany technological innovation. Across legislative institutions, scientific research, and high-risk organizations, I study how new technologies shape public decision-making and organizational adaptation.
+             . My research examines how governments and organizations respond to emerging technologies and the institutional changes that accompany technological innovation. Across legislative institutions, scientific research, and high-risk organizations, I study how new technologies shape public decision-making and organizational adaptation.
             </p>
 
             <p>
