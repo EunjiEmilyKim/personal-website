@@ -1,6 +1,6 @@
-
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#fafafa] text-neutral-900">
@@ -8,15 +8,15 @@ export default function Home() {
 
       <section className="mx-auto grid max-w-6xl grid-cols-1 gap-14 px-6 pt-24 md:grid-cols-[220px_1fr] md:pt-32">
         <div className="flex justify-center md:justify-start">
-  <Image
-    src="/profile.jpg"
-    alt="Eunji Emily Kim"
-    width={210}
-    height={210}
-    priority
-    className="h-52 w-52 rounded-2xl object-cover border border-neutral-200"
-  />
-</div>
+          <Image
+            src="/profile.jpg"
+            alt="Eunji Emily Kim"
+            width={210}
+            height={210}
+            priority
+            className="h-52 w-52 rounded-2xl border border-neutral-200 object-cover"
+          />
+        </div>
 
         <div className="max-w-3xl">
           <h1 className="text-[30px] font-semibold tracking-[-0.03em] md:text-[30px]">
@@ -24,28 +24,45 @@ export default function Home() {
           </h1>
 
           <p className="mt-4 text-[16px] text-neutral-700">
-            <span className="block">Postdoctoral Fellow</span>
+            <span className="block">Postdoctoral Scholar</span>
             <span className="block">
-            University of California Institute on Global Conflict and Cooperation (IGCC)
-  </span>
+              University of California Institute on Global Conflict and Cooperation (IGCC)
+            </span>
           </p>
 
           <div className="mt-9 space-y-5 text-[16px] leading-8 text-neutral-700">
-            <p className="leading-8">
-              I am a Postdoctoral Scholar at the{" "}
+            <p>
+              <strong className="font-medium text-neutral-900">
+                Welcome!
+              </strong>{" "}
+              I'm a Postdoctoral Scholar at the{" "}
               <a
-              href="https://ucigcc.org/people/eunji-emily-kim/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-900 hover:text-blue-800 transition-colors"
+                href="https://ucigcc.org/people/eunji-emily-kim/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-900 transition-colors hover:text-blue-800"
               >
-              IGCC
-            </a> 
-             . My research explores how governments and organizations adapt to emerging technologies. Across legislative institutions, scientific research, and high-risk organizations, I examine how new technologies reshape governance, decision-making, and organizational practices.
+                UC Institute on Global Conflict and Cooperation (IGCC)
+              </a>
+              . I received my Ph.D. in Public Policy from the Georgia Institute
+              of Technology, where I specialized in science and technology
+              policy.
             </p>
 
             <p>
-              My current work focuses on artificial intelligence, digital infrastructure, and technology governance. Using computational text analysis, statistical modeling, and mixed methods, I examine legislative behavior, organizational decision-making, and technology policy.
+              My research explores how governments and organizations adapt to
+              emerging technologies. Across legislative institutions,
+              scientific research, and high-risk organizations, I examine how
+              new technologies reshape governance, decision-making, and
+              organizational practices.
+            </p>
+
+            <p>
+              My current work focuses on artificial intelligence governance,
+              digital infrastructure, and technology policy. Using
+              computational text analysis, statistical modeling, and mixed
+              methods, I study legislative behavior, organizational adaptation,
+              and public decision-making under technological change.
             </p>
           </div>
 
