@@ -23,7 +23,7 @@ export default function Research() {
 
         <section className="mt-16">
           <h2 className="text-sm font-medium uppercase tracking-[0.22em] text-neutral-500">
-            Research Agenda
+            
           </h2>
 
           <div className="mt-8 overflow-hidden rounded-2xl border border-neutral-200 bg-white">
