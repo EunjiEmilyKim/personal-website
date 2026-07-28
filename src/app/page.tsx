@@ -44,25 +44,17 @@ export default function Home() {
               >
                 UC Institute on Global Conflict and Cooperation (IGCC)
               </a>
-              . I received my Ph.D. in Public Policy from the Georgia Institute
-              of Technology, where I specialized in science and technology
-              policy.
+              . My research explores how governments and organizations adapt to technological change. Across legislative institutions, scientific research, and high-risk organizations, I examine how new technologies reshape governance, decision-making, and organizational practices.
             </p>
 
             <p>
-              My research explores how governments and organizations adapt to
-              emerging technologies. Across legislative institutions,
-              scientific research, and high-risk organizations, I examine how
-              new technologies reshape governance, decision-making, and
-              organizational practices.
+              My current work focuses on artificial intelligence governance, digital infrastructure, and technology policy. Using computational text analysis, statistical modeling, and mixed methods, I study legislative behavior, organizational adaptation, and public decision-making under technological change.
             </p>
 
             <p>
-              My current work focuses on artificial intelligence governance,
-              digital infrastructure, and technology policy. Using
-              computational text analysis, statistical modeling, and mixed
-              methods, I study legislative behavior, organizational adaptation,
-              and public decision-making under technological change.
+              Before joining IGCC, I received a Ph.D. in Public Policy and an M.S. in Statistics from the Georgia Institute of Technology, an M.A. in International Relations from Seoul National University, and a B.A. in Political Science from Sungkyunkwan University. I was also a Visiting Scholar at the Institute for Future Initiatives, University of Tokyo, and previously worked at the Korea Institute of S&T 
+              Evaluation and Planning (KISTEP) .
+
             </p>
           </div>
 
