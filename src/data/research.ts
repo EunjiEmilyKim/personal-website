@@ -1,9 +1,9 @@
 
 export const researchProjects = [
   {
-    title: "U.S. AI Legislation",
+    title: "Defining Technological Problems",
     description:
-      "A research stream examining how U.S. state and federal institutions define, frame, and govern artificial intelligence through legislation.",
+      "A research stream examining how emerging technologies are translated into public problems through legislative framing, agenda formation, and scientific knowledge production",
     
     items: [
       {
