@@ -10,10 +10,6 @@ const emails = [
     label: "Personal Email",
     value: "emilykim721@gmail.com",
   },
-  {
-    label: "Georgia Tech Email",
-    value: "emily.kim@gatech.edu",
-  },
 ];
 
 export default function Contact() {
