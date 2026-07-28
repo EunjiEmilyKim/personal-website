@@ -41,11 +41,11 @@ export default function Home() {
               >
               IGCC
             </a> 
-             . My research explores how technological change transforms governance and public institutions. I also study how governments and organizations make policy under uncertainty and how institutions adapt to emerging technologies.
+             I am a Postdoctoral Scholar at the UC Institute on Global Conflict and Cooperation (IGCC). My research examines how governments and organizations respond to emerging technologies and the institutional changes that accompany technological innovation. Across legislative institutions, scientific research, and high-risk organizations, I study how new technologies shape public decision-making and organizational adaptation.
             </p>
 
             <p>
-              My current work focuses on artificial intelligence governance, technology policy, and computational social science. Using computational text analysis, machine learning, and mixed methods, I examine legislative behavior, policy diffusion, organizational decision-making, and institutional responses to technological change.
+              My current work focuses on artificial intelligence, digital infrastructure, and technology governance. Using computational text analysis, statistical modeling, and mixed methods, I examine legislative behavior, organizational decision-making, and technology policy.
             </p>
           </div>
 
