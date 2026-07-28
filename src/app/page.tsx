@@ -41,7 +41,7 @@ export default function Home() {
               >
               IGCC
             </a> 
-             . My research examines how governments and organizations respond to emerging technologies and the institutional changes that accompany technological innovation. Across legislative institutions, scientific research, and high-risk organizations, I study how new technologies shape public decision-making and organizational adaptation.
+             . My research explores how governments and organizations adapt to emerging technologies. Across legislative institutions, scientific research, and high-risk organizations, I examine how new technologies reshape governance, decision-making, and organizational practices.
             </p>
 
             <p>
