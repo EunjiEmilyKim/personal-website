@@ -22,14 +22,10 @@ export default function Research() {
         </p>
 
         <section className="mt-16">
-          <h2 className="text-sm font-medium uppercase tracking-[0.22em] text-neutral-500">
-            
-          </h2>
-
-          <div className="mt-8 overflow-hidden rounded-2xl border border-neutral-200 bg-white">
+           <div className="mt-8 overflow-hidden rounded-2xl border border-neutral-200 bg-white">
             <Image
               src="/research_agenda.png"
-              alt="Research pipeline diagram showing the relationship between emerging technologies, technology governance, societal responses, and research methods"
+              alt="Research agenda illustrating the relationship among my research projects"
               width={1200}
               height={700}
               className="h-auto w-full"
